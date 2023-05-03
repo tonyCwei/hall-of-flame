@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Coin
+  - Exit
+  - Enemy
+  - Hazard
+  - Wall
+  - Bullet
+  - Arrow
+  - Sword
+  - USword
+  - Guard
+  - Enemy Bullet
+  - GameOver
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - BlockingLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 1967310227
+    locked: 0
+  - name: Torch
+    uniqueID: 883088857
+    locked: 0
+  - name: Level Exit
+    uniqueID: 3881742601
+    locked: 0
+  - name: Hazard
+    uniqueID: 3197697301
+    locked: 0
+  - name: Items
+    uniqueID: 4185578051
+    locked: 0
+  - name: Units
+    uniqueID: 2276167061
+    locked: 0
+  - name: Bullet
+    uniqueID: 1278875875
+    locked: 0
+  - name: Player
+    uniqueID: 638569457
+    locked: 0
+  - name: Prop
+    uniqueID: 3427689919
+    locked: 0
+  - name: UI
+    uniqueID: 2807784757
+    locked: 0
