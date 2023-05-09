@@ -18,12 +18,17 @@ public class MenuManager : MonoBehaviour
         
     }
 
+    public void StartGame(){
+        SceneManager.LoadScene("GameScene");
+    }
+
     public void Restart() {
         GameManager.instance.Restart();
         SceneManager.LoadScene("GameScene");
     }
 
     public void MainMenu() {
+        GameManager.instance.Restart();
         SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1f;
     }
@@ -36,6 +41,11 @@ public class MenuManager : MonoBehaviour
     public void Resume() {
         GameManager.pause.SetActive(false);
         Time.timeScale = 1f;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 
