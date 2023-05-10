@@ -213,7 +213,9 @@ MonoBehaviour:
   guardFlipDelay: 2
   Fliped: 0
   directionToPlayer: {x: 0, y: 0, z: 0}
+  hitSound: {fileID: 8300000, guid: bafe8b311a885ed46843e91353ebb18a, type: 3}
   shield: {fileID: 382844782}
   bullet: {fileID: 3907970666640708482, guid: ecada0b7955325b47b8210f3eaf65cae, type: 3}
   isUpgraded: 0
   reflected: 0
+  guardSound: {fileID: 8300000, guid: b01e23464ab1d6b42a325d18bb9c07d1, type: 3}

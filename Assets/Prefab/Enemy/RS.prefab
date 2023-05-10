@@ -240,6 +240,7 @@ MonoBehaviour:
   guardFlipDelay: 1
   Fliped: 0
   directionToPlayer: {x: 0, y: 0, z: 0}
+  hitSound: {fileID: 8300000, guid: bafe8b311a885ed46843e91353ebb18a, type: 3}
   sword: {fileID: 1143689636}
   isUpgraded: 0
   circleOrigin: {fileID: 4318457886039785684}
@@ -248,3 +249,4 @@ MonoBehaviour:
   attackDelay: 0.5
   chargeSpeed: 7
   chargeDuration: 0.6
+  swordSound: {fileID: 8300000, guid: ea5fc2d2350a5d647b0763cc8f00f63e, type: 3}

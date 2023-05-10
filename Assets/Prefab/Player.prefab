@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 638569457
-  m_SortingLayer: 9
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 1670660276820739667, guid: 515138afb46ec0a45854690ac95aff51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -155,7 +155,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 638569457
-  m_SortingLayer: 9
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -2696115198898644070, guid: 515138afb46ec0a45854690ac95aff51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -239,7 +239,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 638569457
-  m_SortingLayer: 9
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 3207967757382678166, guid: 515138afb46ec0a45854690ac95aff51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -323,7 +323,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 638569457
-  m_SortingLayer: 9
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -5929832237704200204, guid: 515138afb46ec0a45854690ac95aff51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -533,7 +533,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 638569457
-  m_SortingLayer: 9
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 3805063247507766641, guid: 4d701fb8bab94204e92af20e3e7b6a8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -668,4 +668,8 @@ MonoBehaviour:
   gun: {fileID: 1212747330428657156}
   bullet: {fileID: 3907970666640708482, guid: 206c9d4cf5bd66e43addab69f7729cbb, type: 3}
   bulletSpeed: 0
+  minPlayerBulletDamage: 0
+  maxPlayerBulletDamage: 0
   attackSpeed: 0
+  attackSound: {fileID: 8300000, guid: 467459d8db85ae647a3f8b7ce7158530, type: 3}
+  hitSound: {fileID: 8300000, guid: bafe8b311a885ed46843e91353ebb18a, type: 3}

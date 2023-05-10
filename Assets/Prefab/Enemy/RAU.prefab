@@ -213,6 +213,7 @@ MonoBehaviour:
   guardFlipDelay: 1
   Fliped: 0
   directionToPlayer: {x: 0, y: 0, z: 0}
+  hitSound: {fileID: 8300000, guid: bafe8b311a885ed46843e91353ebb18a, type: 3}
   bow: {fileID: 134740024}
   arrow: {fileID: 8018485256992246023, guid: 8591b28450fba3f4cb89619c4c27d991, type: 3}
   baseArrowSpeed: 2.6
@@ -223,3 +224,4 @@ MonoBehaviour:
   attackSpeed: 0
   attackBlocked: 0
   isUpgraded: 1
+  archerSound: {fileID: 8300000, guid: b01e23464ab1d6b42a325d18bb9c07d1, type: 3}

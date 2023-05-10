@@ -17,6 +17,7 @@ public class Archer : EnemyMovement
     public bool attackBlocked;
 
     public bool isUpgraded = false;
+    public AudioClip archerSound;
    
     protected override void Start()
     {
@@ -60,6 +61,7 @@ public class Archer : EnemyMovement
         GameObject arrowInstance = Instantiate(arrow, bow.position, initialRotation);
         arrowInstance.GetComponent<Rigidbody2D>().velocity = arrowVelocity;
         myAnimator.SetTrigger("doAttack");
+        SoundManager.instance.PlaySingle(archerSound);
         StartCoroutine(BlockAttack());
     }
 
@@ -99,6 +101,7 @@ public class Archer : EnemyMovement
 
 
         myAnimator.SetTrigger("doAttack");
+        SoundManager.instance.PlaySingle(archerSound);
         StartCoroutine(BlockAttack());
     }
 

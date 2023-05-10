@@ -46,7 +46,9 @@ public class Player : MonoBehaviour
     private Vector2 shootDirection;
     private Vector2 bulletVelocity;
 
-
+    //Audio
+    public AudioClip attackSound;
+    public AudioClip hitSound;
 
     void Start()
     {
@@ -216,6 +218,7 @@ public class Player : MonoBehaviour
       }
       StartCoroutine(HitInvin());
       myAnimator.SetTrigger("hit");
+      SoundManager.instance.PlaySingle(hitSound);
       LoseCurHP(dmg);
       CheckIfGameOver();
     }
@@ -253,6 +256,7 @@ public class Player : MonoBehaviour
         GameObject bulletInstance = Instantiate(bullet, gun.position, initialRotation);
         bulletInstance.GetComponent<Rigidbody2D>().velocity = bulletVelocity;
         myAnimator.SetTrigger("attack");
+        SoundManager.instance.PlaySingle(attackSound);
         StartCoroutine(BlockAttack());
         //Instantiate(bullet, gun.position, rotation);
     }

@@ -18,7 +18,7 @@ public class Sword : EnemyMovement
 
     private bool attackBlocked = false;
 
-
+    public AudioClip swordSound;
 
 
     protected override void Start()
@@ -87,6 +87,7 @@ public class Sword : EnemyMovement
             return;
         }
         myAnimator.SetTrigger("doAttack");
+        SoundManager.instance.PlaySingle(swordSound);
         StartCoroutine(Charge());
     }
 

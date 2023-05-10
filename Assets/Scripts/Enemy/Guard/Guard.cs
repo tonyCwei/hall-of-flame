@@ -9,7 +9,7 @@ public class Guard : EnemyMovement
     public bool isUpgraded = false;
     public bool reflected = false;
 
-    
+    public AudioClip guardSound;
     protected override void Start()
     {
         base.Start();
@@ -66,6 +66,7 @@ public class Guard : EnemyMovement
         
         
         myAnimator.SetTrigger("doAttack");
+        SoundManager.instance.PlaySingle(guardSound);
     }
     
 

@@ -39,7 +39,8 @@ public class EnemyMovement : MonoBehaviour
     protected bool isAttacking = false;
     
     
-    
+    //Audio
+    public AudioClip hitSound;
 
     
     protected virtual void Start()
@@ -148,6 +149,7 @@ public class EnemyMovement : MonoBehaviour
     //Mortality
     public void Hit(float dmg){
       myAnimator.SetTrigger("doHit");
+      SoundManager.instance.PlaySingle(hitSound);
       LoseCurHP(dmg);
     }
 

@@ -69,6 +69,8 @@ public class GameManager : MonoBehaviour
 
     void InitGame(){
         enemyCount = boardScript.SetupScene(level);
+        SoundManager.instance.SetBGMVolume(0.5f);
+        
         if (level % 5 == 0) {
             ActivateShop();
         } else {
@@ -94,6 +96,8 @@ public class GameManager : MonoBehaviour
     public void GameOver() {
         Debug.Log("Game is over");
         //enabled = false;
+        SoundManager.instance.PauseBGM();
+        SoundManager.instance.PlayGameOver();
         gameOver.SetActive(true);
         for (int i = 0; i < gameOver.transform.childCount; i++)
         {
