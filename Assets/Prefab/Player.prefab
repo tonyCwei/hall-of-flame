@@ -673,3 +673,4 @@ MonoBehaviour:
   attackSpeed: 0
   attackSound: {fileID: 8300000, guid: 467459d8db85ae647a3f8b7ce7158530, type: 3}
   hitSound: {fileID: 8300000, guid: bafe8b311a885ed46843e91353ebb18a, type: 3}
+  coinSound: {fileID: 8300000, guid: 35d9f24b1236ad14dacf8941905a6d1f, type: 3}

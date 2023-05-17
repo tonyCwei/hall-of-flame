@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
 
     private GameObject shop;
     public static bool inShop = false;
+
+    public static bool isPaused = false;
     
     
     public static GameObject gameOver;

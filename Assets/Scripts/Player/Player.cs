@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
     //Audio
     public AudioClip attackSound;
     public AudioClip hitSound;
+    public AudioClip coinSound;
 
     void Start()
     {
@@ -90,7 +91,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {   
-        if (!isAlive || GameManager.inShop) {
+        if (!isAlive || GameManager.inShop || GameManager.isPaused) {
             return;
         }
         //General
@@ -115,6 +116,7 @@ public class Player : MonoBehaviour
         Hit(1f);
       } else if (other.tag == "Coin") {
          AddCoin(1);
+         SoundManager.instance.PlaySingle(coinSound);
          Destroy(other.gameObject,0f);
       } else if (other.tag == "Exit") {
          Invoke ("NextLevel", restartLevelDelay);
@@ -165,7 +167,7 @@ public class Player : MonoBehaviour
     }
 
     void OnDash(InputValue value){
-       if(isDashing || dashBlocked || GameManager.inShop) {
+       if(isDashing || dashBlocked || GameManager.inShop || GameManager.isPaused) {
         return;
        }
        StartCoroutine(Dash());
