@@ -1,6 +1,6 @@
 # Little War
 
-## [Play](https://) the game
+## [Play](https://frigidough.itch.io/hall-of-flame) the game
 
 **Movement:** W,S,A,D
 
