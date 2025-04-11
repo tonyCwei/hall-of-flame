@@ -12,9 +12,9 @@ Source Code of Hall of Flame with Unity
 Map generation is handled by the [BoardManager](Assets/Scripts/GameManager/BoardManager.cs). 
 In each level, the system randomly generates the following elements:
 
-- **Tiles** ¨C forming the base ground of the map.
-- **Enemies** ¨C placed at random valid positions.
-- **Spikes (Hazards)** ¨C scattered throughout the map. 
+- **Tiles**: forming the base ground of the map.
+- **Enemies**: placed at random valid positions.
+- **Spikes (Hazards)**: scattered throughout the map. 
 
 <p align="center">
   <img src="gifs/Tile.gif" width="100%">
