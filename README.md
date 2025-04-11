@@ -1,15 +1,16 @@
-# Little War
+# Hall of Flame
 
-## [Play](https://frigidough.itch.io/hall-of-flame) the game
+Source Code of Hall of Flame with Unity
 
-**Movement:** W,S,A,D
+[![itch.io Version](https://img.shields.io/badge/Download%20on-itch.io-FA5C5C.svg?logoWidth=150)](https://frigidough.itch.io/hall-of-flame)  
 
-**Attack:** Left Click
 
-**Dash:** Space Bar
+## Highlights
 
-Little War is a top-down rouge-like Game. Player will need to kill enemies in each level in order to progress levels. 
 
-Enemies drop coins, which can be spent in upgrade shop. 
 
-Upgrade shop appears every 5 levels.
+<p align="center">
+  <img src="gifs/Tile.gif" width="100%">
+  <br>
+  <em>Melee Attack Perfect Dodge</em>
+</p>
