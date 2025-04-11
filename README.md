@@ -45,3 +45,14 @@ In each level, the system randomly generates the following elements:
   <br>
   <em>Sword</em>
 </p>
+
+### Shop
+
+An **Upgrade Shop** appears every 5 levels. 
+Players can spend coins earned from defeating enemies to purchase upgrades, enhancing their stats. 
+
+<p align="center">
+  <img src="gifs/Shop.gif" width="100%">
+  <br>
+  <em>Map Generation</em>
+</p>
