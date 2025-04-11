@@ -24,6 +24,8 @@ In each level, the system randomly generates the following elements:
 
 ### Enemies
 
+As the player progresses levels, more enemies, as well as advanced units, will start spawning. Enemy health and attack damage also scale with the level.
+
 <p align="center">
   <img src="gifs/Archer.gif" width="48%">
   <img src="gifs/Archer U.gif" width="48%">
