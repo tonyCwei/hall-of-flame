@@ -9,7 +9,7 @@ Source Code of Hall of Flame with Unity
 
 ### Map Generation
 
-Map generation is handled by the `BoardManager` script (`Assets/Scripts/GameManager/BoardManager.cs`). 
+Map generation is handled by the [BoardManager](Assets/Scripts/GameManager/BoardManager.cs). 
 In each level, the system randomly generates the following elements:
 
 - **Tiles** ¨C forming the base ground of the map.
