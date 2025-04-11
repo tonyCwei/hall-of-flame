@@ -2,7 +2,7 @@
 
 Source Code of Hall of Flame with Unity. The game was made in 4 days in April, 2023.
 
-[![itch.io Version](https://img.shields.io/badge/Download%20on-itch.io-FA5C5C.svg?logoWidth=150)](https://frigidough.itch.io/hall-of-flame)  
+[![itch.io Version](https://img.shields.io/badge/Play%20on-itch.io-FA5C5C.svg?logoWidth=150)](https://frigidough.itch.io/hall-of-flame)  
 
 
 ## Highlights
@@ -56,5 +56,5 @@ Players can spend coins earned from defeating enemies to purchase upgrades, enha
 <p align="center">
   <img src="gifs/Shop.gif" width="100%">
   <br>
-  <em>Map Generation</em>
+  <em>Upgrade Shop</em>
 </p>
