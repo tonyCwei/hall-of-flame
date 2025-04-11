@@ -1,6 +1,6 @@
 # Hall of Flame
 
-Source Code of Hall of Flame with Unity
+Source Code of Hall of Flame with Unity. The game was made in 4 days in April, 2023.
 
 [![itch.io Version](https://img.shields.io/badge/Download%20on-itch.io-FA5C5C.svg?logoWidth=150)](https://frigidough.itch.io/hall-of-flame)  
 
