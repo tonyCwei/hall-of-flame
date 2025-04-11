@@ -7,10 +7,17 @@ Source Code of Hall of Flame with Unity
 
 ## Highlights
 
+### Map Generation
 
+Map generation is handled by the `BoardManager` script (`Assets/Scripts/GameManager/BoardManager.cs`). 
+In each level, the system randomly generates the following elements:
+
+- **Tiles** ¨C forming the base ground of the map.
+- **Enemies** ¨C placed at random valid positions.
+- **Spikes (Hazards)** ¨C scattered throughout the map. 
 
 <p align="center">
   <img src="gifs/Tile.gif" width="100%">
   <br>
-  <em>Melee Attack Perfect Dodge</em>
+  <em>Map Generation</em>
 </p>
