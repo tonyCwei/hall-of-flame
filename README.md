@@ -28,14 +28,16 @@ In each level, the system randomly generates the following elements:
   <img src="gifs/Archer.gif" width="48%">
   <img src="gifs/Archer U.gif" width="48%">
   <br>
-  <em>Archer Base Unit</em> &nbsp;&nbsp;&nbsp; <em>Archer Advanced Unit</em>
+  <em>Archer Base Unit</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>Archer Advanced Unit</em>
 </p>
 
 <p align="center">
   <img src="gifs/Shield.gif" width="48%">
   <img src="gifs/Shield U.gif" width="48%">
   <br>
-  <em>Shield Base Unit</em> &nbsp;&nbsp;&nbsp; <em>Shield Advanced Unit</em>
+  <em>Shield Base Unit</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>Shield Advanced Unit</em>
 </p>
 
 <p align="center">
