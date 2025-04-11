@@ -27,25 +27,25 @@ In each level, the system randomly generates the following elements:
 <p align="center">
   <img src="gifs/Archer.gif" width="100%">
   <br>
-  <em>Archer I</em>
+  <em>Archer Base Unit</em>
 </p>
 
 <p align="center">
   <img src="gifs/Archer U.gif" width="100%">
   <br>
-  <em>Archer II</em>
+  <em>Archer Advanced Unit</em>
 </p>
 
 <p align="center">
   <img src="gifs/Shield.gif" width="100%">
   <br>
-  <em>Shield</em>
+  <em>Shield Base Unit</em>
 </p>
 
 <p align="center">
   <img src="gifs/Shield U.gif" width="100%">
   <br>
-  <em>Shield</em>
+  <em>Shield Advanced Unit</em>
 </p>
 
 <p align="center">
