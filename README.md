@@ -21,3 +21,35 @@ In each level, the system randomly generates the following elements:
   <br>
   <em>Map Generation</em>
 </p>
+
+### Enemies
+
+<p align="center">
+  <img src="gifs/Archer.gif" width="100%">
+  <br>
+  <em>Archer I</em>
+</p>
+
+<p align="center">
+  <img src="gifs/Archer U.gif" width="100%">
+  <br>
+  <em>Archer II</em>
+</p>
+
+<p align="center">
+  <img src="gifs/Shield.gif" width="100%">
+  <br>
+  <em>Shield</em>
+</p>
+
+<p align="center">
+  <img src="gifs/Shield U.gif" width="100%">
+  <br>
+  <em>Shield</em>
+</p>
+
+<p align="center">
+  <img src="gifs/Sword.gif" width="100%">
+  <br>
+  <em>Sword</em>
+</p>
